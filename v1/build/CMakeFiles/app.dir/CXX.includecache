@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/head.h
+
+/home/melody/example/cmake_demo/v1/src/add.cpp
+head.h
+/home/melody/example/cmake_demo/v1/src/head.h
+
+/home/melody/example/cmake_demo/v1/src/div.cpp
+head.h
+/home/melody/example/cmake_demo/v1/src/head.h
+
+/home/melody/example/cmake_demo/v1/src/main.cpp
+head.h
+/home/melody/example/cmake_demo/v1/src/head.h
+iostream
+-
+
+/home/melody/example/cmake_demo/v1/src/muilt.cpp
+head.h
+/home/melody/example/cmake_demo/v1/src/head.h
+
+/home/melody/example/cmake_demo/v1/src/sub.cpp
+head.h
+/home/melody/example/cmake_demo/v1/src/head.h
+

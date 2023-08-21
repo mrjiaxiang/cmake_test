@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/app.dir/main.cpp.o  -o ../bin/app   -L/home/melody/example/cmake_demo/v3/lib/libs  -Wl,-rpath,/home/melody/example/cmake_demo/v3/lib/libs -lcalc 
